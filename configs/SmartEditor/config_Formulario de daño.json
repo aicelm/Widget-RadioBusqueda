@@ -1,0 +1,352 @@
+{
+  "editor": {
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "Edificios_field_6862"
+        },
+        "disableGeometryUpdate": true,
+        "allowUpdateOnly": true,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "CD_RefCat",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Via",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "FC_Construccion",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "SUP_M2",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "COOR_X",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "COOR_Y",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "NM_Peligrosidad",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "NB_GradoDaño",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Peligrosidad",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "NB_TipoEdificio",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "NM_Pisos",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Material",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "BO_Cliente",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "BO_SeguroVida",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "BO_SeguroAuto",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "BO_SeguroDecesos",
+            "canPresetValue": false,
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "NB_Evaluador",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Daño",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_DañoEstructural",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Columnas",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Muros",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Uniones",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Ventanas",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "NB_Techadumbre",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DS_Recomendacion",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DS_Comentarios",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ],
+        "fieldValidations": {
+          "NB_Evaluador": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "OBJECTID",
+                      "label": "OBJECTID",
+                      "shortType": "number",
+                      "type": "esriFieldTypeOID"
+                    },
+                    "operator": "numberOperatorIsNotBlank",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": null
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "OBJECTID IS NOT NULL"
+                  }
+                ],
+                "expr": "OBJECTID IS NOT NULL"
+              }
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false
+            }
+          ],
+          "NB_Daño": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "OBJECTID",
+                      "label": "OBJECTID",
+                      "shortType": "number",
+                      "type": "esriFieldTypeOID"
+                    },
+                    "operator": "numberOperatorIsNotBlank",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": null
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "OBJECTID IS NOT NULL"
+                  }
+                ],
+                "expr": "OBJECTID IS NOT NULL"
+              }
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false
+            }
+          ],
+          "NB_DañoEstructural": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIsNot",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "unique",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño <> 0"
+                  }
+                ],
+                "expr": "NB_Daño <> 0"
+              }
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "DS_Recomendacion": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIsNot",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "unique",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño <> 0"
+                  }
+                ],
+                "expr": "NB_Daño <> 0"
+              }
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false
+            }
+          ]
+        }
+      }
+    ],
+    "displayPromptOnSave": false,
+    "displayPromptOnDelete": false,
+    "removeOnSave": false,
+    "useFilterEditor": false,
+    "listenToGF": false,
+    "keepTemplateSelected": false,
+    "editDescription": ""
+  }
+}

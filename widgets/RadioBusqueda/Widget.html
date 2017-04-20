@@ -1,0 +1,42 @@
+<div id="RadioBusqueda">
+
+	<div id="info">
+		<h4>Introduce los valores deseados:</h4>
+		<div class="form-group">
+			<label id="tipo" class="col-md-4 control-label">Tipo de Daño</label>
+				<div class="col-md-6 selectContainer">
+				<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+				<select id ="query" class="form-control selectpicker" >
+					<option value="0" >Selecciona un tipo de daño</option>
+					<option value= "Completo">Completo</option>
+					<option value = "Extenso">Extenso</option>
+					<option value= "Moderado">Moderado</option>
+					<option value= "Leve">Leve</option>
+				</select>
+			</div>
+		</div>
+		</div>
+		<br>
+		<div class="form-group">
+				<label id="radio" class="col-md-4 control-label">Radio de Búsqueda</label>
+					<div class="col-md-6 inputGroupContainer">
+					<div>
+							<!-- <input id ="distancia" placeholder="Introduce una distancia" class="form-control" type="range" step="50" max="500" min="50"> -->
+							<div id="slider">
+								<input class="bar" type="range" id="distancia" value="50" step="50" max="500" min="50" onchange="rangevalue.value=value"/>
+								<span class="highlight"></span>
+								<output id="rangevalue">50</output>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<button class="btn btn-primary" data-dojo-attach-event="onclick:ejecutar"><span class="glyphicon glyphicon-play-circle"></span> Ejecutar </button>
+			</div>
+			<div class="col-md-12">
+			<div id="siguiente"></div>
+			<div id="error"></div>
+			</div>
+	</div>
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "RadioBusqueda",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.3",
+  "wabVersion": "2.3",
+  "author": "Geoquake",
+  "description": "Widget para realizar búsqueda de elementos en un radio escogido",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": true,
+		"hasStyle":true,
+		"hasConfig":false,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":false,
+		"hasSettingStyle":false,
+		"IsController":false
+  }
+}
