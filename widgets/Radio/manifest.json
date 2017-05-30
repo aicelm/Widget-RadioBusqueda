@@ -1,0 +1,19 @@
+{
+  "name": "Radio",
+  "label": "Radio",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "wabVersion": "2.3",
+  "author": "Geoquake",
+  "description": "Radio de busqueda",
+  "copyright": "",
+  "license": "ISC",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": false,
+    "hasStyle": true
+
+  }
+}

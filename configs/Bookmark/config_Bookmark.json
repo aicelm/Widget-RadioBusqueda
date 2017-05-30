@@ -1,0 +1,111 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Calle Marroquina",
+      "name": "Calle Marroquina",
+      "extent": {
+        "type": "extent",
+        "xmin": -406126.6683194619,
+        "ymin": 4925570.636115668,
+        "xmax": -405780.31303499726,
+        "ymax": 4925809.501829091,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -406126.6683194619,
+                "ymin": 4925570.636115668,
+                "xmax": -405780.31303499726,
+                "ymax": 4925809.501829091,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "/webappbuilder/apps/2/widgets/Bookmark/images/thumbnail_default.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Calle de Vinateros",
+      "name": "Calle de Vinateros",
+      "extent": {
+        "type": "extent",
+        "xmin": -406327.58327713114,
+        "ymin": 4925561.558252185,
+        "xmax": -406154.40563497547,
+        "ymax": 4925680.991108843,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -406327.58327713114,
+                "ymin": 4925561.558252185,
+                "xmax": -406154.40563497547,
+                "ymax": 4925680.991108843,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "/webappbuilder/apps/2/widgets/Bookmark/images/thumbnail_default.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Av. Doctor Gracia Tapia",
+      "name": "Av. Doctor Gracia Tapia",
+      "extent": {
+        "type": "extent",
+        "xmin": -406622.3146747033,
+        "ymin": 4925838.165714619,
+        "xmax": -406275.9593902386,
+        "ymax": 4926077.031428042,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -406622.3146747033,
+                "ymin": 4925838.165714619,
+                "xmax": -406275.9593902386,
+                "ymax": 4926077.031428042,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "/webappbuilder/apps/2/widgets/Bookmark/images/thumbnail_default.png",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

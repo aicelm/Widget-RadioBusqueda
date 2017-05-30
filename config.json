@@ -167,23 +167,24 @@
         },
         "placeholderIndex": 1,
         "id": "_30",
+        "version": "2.3",
         "closeable": true,
         "uri": "widgets/RadioBusqueda/Widget",
-        "version": "2.3",
         "name": "RadioBusqueda",
         "IsController": false
       },
       {
         "position": {
-          "right": 150,
-          "top": 20,
+          "left": 10,
+          "bottom": 155,
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
         "id": "_31",
-        "version": "2.3",
+        "version": "0.0.1",
         "closeable": true,
-        "uri": ""
+        "uri": "",
+        "IsController": false
       },
       {
         "position": {
@@ -253,13 +254,13 @@
       {
         "name": "SmartEditor",
         "label": "Formulario de daño",
+        "version": "2.3",
         "keepConfigAfterMapSwithched": false,
         "icon": "configs\\SmartEditor\\icon_Formulario de daño.png",
         "uri": "widgets/SmartEditor/Widget",
         "config": "configs/SmartEditor/config_Formulario de daño.json",
         "index": 4,
-        "id": "widgets_SmartEditor_Widget_34",
-        "version": "2.3"
+        "id": "widgets_SmartEditor_Widget_34"
       },
       {
         "name": "Measurement",
@@ -270,11 +271,20 @@
         "id": "widgets_Measurement_Widget_35"
       },
       {
+        "name": "NearMe",
+        "version": "2.3",
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "config": "configs/NearMe/config_NearMe.json",
+        "index": 6,
+        "id": "widgets_NearMe_Widget_36"
+      },
+      {
         "name": "Print",
         "version": "2.3",
         "uri": "widgets/Print/Widget",
         "config": "configs/Print/config_Print.json",
-        "index": 6,
+        "index": 7,
         "id": "widgets_Print_Widget_37"
       }
     ],

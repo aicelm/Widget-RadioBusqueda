@@ -22,20 +22,22 @@
 				<label id="radio" class="col-md-4 control-label">Radio de Búsqueda</label>
 					<div class="col-md-6 inputGroupContainer">
 					<div>
-							<!-- <input id ="distancia" placeholder="Introduce una distancia" class="form-control" type="range" step="50" max="500" min="50"> -->
 							<div id="slider">
-								<input class="bar" type="range" id="distancia" value="50" step="50" max="500" min="50" onchange="rangevalue.value=value"/>
-								<span class="highlight"></span>
+								<input class="bar" type="range" id="distance" value="50" step="50" max="500" min="50" onchange="rangevalue.value=value" />
 								<output id="rangevalue">50</output>
 							</div>
 					</div>
 				</div>
-			</div>
+		</div>
 			<div class="col-md-12">
-				<button class="btn btn-primary" data-dojo-attach-event="onclick:ejecutar"><span class="glyphicon glyphicon-play-circle"></span> Ejecutar </button>
+				<button class="btn btn-primary" data-dojo-attach-event="onclick:play"><span class="glyphicon glyphicon-play-circle"></span> Ejecutar </button>
+				<button class="btn btn-primary" data-dojo-attach-event="onclick:clear"><span class="glyphicon glyphicon-stop-circle"></span> Limpiar </button>
 			</div>
+			<div class="col-md-12" id="display">
+			 	<strong>Entidades encontradas: </strong><span class="stats" id="countResult"></span><br>
+		 	</div>
 			<div class="col-md-12">
-			<div id="siguiente"></div>
+			<div id="next"></div>
 			<div id="error"></div>
 			</div>
 	</div>

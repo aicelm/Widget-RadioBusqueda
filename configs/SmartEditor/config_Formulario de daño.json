@@ -3,7 +3,7 @@
     "layerInfos": [
       {
         "featureLayer": {
-          "id": "Edificios_field_6862"
+          "id": "Edificios_Lorca_6807"
         },
         "disableGeometryUpdate": true,
         "allowUpdateOnly": true,
@@ -31,7 +31,7 @@
             "fieldName": "SUP_M2",
             "canPresetValue": false,
             "isEditable": false,
-            "visible": false
+            "visible": true
           },
           {
             "fieldName": "COOR_X",
@@ -169,10 +169,6 @@
         "fieldValidations": {
           "NB_Evaluador": [
             {
-              "actionName": "Hide",
-              "submitWhenHidden": false
-            },
-            {
               "actionName": "Required",
               "submitWhenHidden": false,
               "filter": {
@@ -180,12 +176,12 @@
                 "parts": [
                   {
                     "fieldObj": {
-                      "name": "OBJECTID",
-                      "label": "OBJECTID",
-                      "shortType": "number",
-                      "type": "esriFieldTypeOID"
+                      "name": "CD_RefCat",
+                      "label": "CD_RefCat",
+                      "shortType": "string",
+                      "type": "esriFieldTypeString"
                     },
-                    "operator": "numberOperatorIsNotBlank",
+                    "operator": "stringOperatorIsNotBlank",
                     "valueObj": {
                       "isValid": true,
                       "type": "value",
@@ -193,11 +189,15 @@
                     },
                     "interactiveObj": "",
                     "caseSensitive": false,
-                    "expr": "OBJECTID IS NOT NULL"
+                    "expr": "CD_RefCat IS NOT NULL"
                   }
                 ],
-                "expr": "OBJECTID IS NOT NULL"
+                "expr": "CD_RefCat IS NOT NULL"
               }
+            },
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
             },
             {
               "actionName": "Disabled",
@@ -217,12 +217,12 @@
                 "parts": [
                   {
                     "fieldObj": {
-                      "name": "OBJECTID",
-                      "label": "OBJECTID",
-                      "shortType": "number",
-                      "type": "esriFieldTypeOID"
+                      "name": "CD_RefCat",
+                      "label": "CD_RefCat",
+                      "shortType": "string",
+                      "type": "esriFieldTypeString"
                     },
-                    "operator": "numberOperatorIsNotBlank",
+                    "operator": "stringOperatorIsNotBlank",
                     "valueObj": {
                       "isValid": true,
                       "type": "value",
@@ -230,10 +230,10 @@
                     },
                     "interactiveObj": "",
                     "caseSensitive": false,
-                    "expr": "OBJECTID IS NOT NULL"
+                    "expr": "CD_RefCat IS NOT NULL"
                   }
                 ],
-                "expr": "OBJECTID IS NOT NULL"
+                "expr": "CD_RefCat IS NOT NULL"
               }
             },
             {
@@ -272,6 +272,191 @@
                 ],
                 "expr": "NB_Daño <> 0"
               }
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "unique",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "NB_Columnas": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "unique",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "NB_Muros": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "NB_Uniones": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "NB_Ventanas": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Disabled",
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
+            }
+          ],
+          "NB_Techadumbre": [
+            {
+              "actionName": "Hide",
+              "submitWhenHidden": false
+            },
+            {
+              "actionName": "Required",
+              "submitWhenHidden": false
             },
             {
               "actionName": "Disabled",
@@ -335,10 +520,34 @@
             },
             {
               "actionName": "Disabled",
-              "submitWhenHidden": false
+              "submitWhenHidden": false,
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "fieldObj": {
+                      "name": "NB_Daño",
+                      "label": "NB_Daño",
+                      "shortType": "number",
+                      "type": "esriFieldTypeInteger"
+                    },
+                    "operator": "numberOperatorIs",
+                    "valueObj": {
+                      "isValid": true,
+                      "type": "value",
+                      "value": 0
+                    },
+                    "interactiveObj": "",
+                    "caseSensitive": false,
+                    "expr": "NB_Daño = 0"
+                  }
+                ],
+                "expr": "NB_Daño = 0"
+              }
             }
           ]
-        }
+        },
+        "editDescription": "Formulario de datos según la evaluación del daño del inmueble"
       }
     ],
     "displayPromptOnSave": false,
