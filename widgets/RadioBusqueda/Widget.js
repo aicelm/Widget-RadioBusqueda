@@ -120,7 +120,7 @@ function (declare, BaseWidget, Circle, Extent, FeatureLayer, Query, QueryTask, P
 
             var text = dom.byId("next");
             text.className = 'next';
-            text.innerHTML = '<p> Selecciona la zona de búsqueda </p>';
+            text.innerHTML = '<p> Selecciona la zona de búsqueda </p>'; 
 
         },
 

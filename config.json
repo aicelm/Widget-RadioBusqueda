@@ -271,20 +271,11 @@
         "id": "widgets_Measurement_Widget_35"
       },
       {
-        "name": "NearMe",
-        "version": "2.3",
-        "IsController": false,
-        "uri": "widgets/NearMe/Widget",
-        "config": "configs/NearMe/config_NearMe.json",
-        "index": 6,
-        "id": "widgets_NearMe_Widget_36"
-      },
-      {
         "name": "Print",
         "version": "2.3",
         "uri": "widgets/Print/Widget",
         "config": "configs/Print/config_Print.json",
-        "index": 7,
+        "index": 6,
         "id": "widgets_Print_Widget_37"
       }
     ],
